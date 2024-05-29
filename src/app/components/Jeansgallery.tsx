@@ -8,6 +8,7 @@ import img7 from '@/public/gallery/black/blackback.jpg';
 import img8 from '@/public/gallery/black/blackfront.jpg';
 import img9 from '@/public/gallery/engomado/engomadof.jpg';
 import img10 from '@/public/gallery/engomado/engomadob.jpg';
+import Image from 'next/image';
 
 
 const images = [ img1 ,img2, img3,img4,img5,img6,img7,img8,img9,img10];
@@ -18,7 +19,7 @@ export default function Jeansgallery(){
 
 {images.map((img, index) => (
                     <div className='max-h-[230px]' key={index}>
-                        <img className="w-full h-full rounded-md" src={img.src} alt="" />
+                        <Image className="w-full h-full rounded-md" src={img.src} alt="" />
                     </div>
                 ))}
         </section>
