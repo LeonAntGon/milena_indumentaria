@@ -32,17 +32,17 @@ export default function jeans(){
         
            <section className={`grid-container mt-4 mx-4 [&>p]:${iceb.className}`}>
                 {/*line 1 */}
-                <div></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>Talles</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>Por unidad</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>Por mayor a eleccion llevando 3</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>Por curva</p></div>
                 {/*line 2 */}
-                <div><p className={` text-center font-bold text-[12px] ${iceb.className}`}>Talles del 36 | 46</p></div>
+                <div><p className={` text-center font-bold text-[12px] ${iceb.className}`}>T. del 36 | 46</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>$10.900</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>$9.900</p></div>
                 <div className={` text-center text-[12px] ${iceb.className}`}>$9.300</div>
                 {/*line 3 */}
-                <div><p className={`text-center font-bold text-[12px] ${iceb.className}`}>Talles especiales 48 | 56</p></div>
+                <div><p className={`text-center font-bold text-[12px] ${iceb.className}`}>T. especiales 48 | 56</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>$12.500</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>$11.500</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>$10.500</p></div>
