@@ -1,4 +1,4 @@
-import img1 from '@/public/gallery/gray/blackfront.jpg';
+import img1 from '@/public/gallery/gray/blackfront2.jpg';
 import img2 from '@/public/gallery/modelblue.jpg';
 import img3 from '@/public/gallery/especial/bwback2.jpg';
 import img4 from '@/public/gallery/especial/bwfront.jpg';
