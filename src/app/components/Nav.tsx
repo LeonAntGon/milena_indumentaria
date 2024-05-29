@@ -33,7 +33,7 @@ export default function Nav() {
             
         {/*Hamburguer */}
             <div className="mx-5 pt-6 [&>span]:h-[3px] [&>span]:rounded-sm
-                            md:hidden cursor-pointer"                            
+                            cursor-pointer"                            
                              onClick={toggleDivVisibility} >
                 <span className="block w-6 bg-black mb-[6px]"></span>
                 <span className="block w-6 bg-black mb-[6px]"></span>

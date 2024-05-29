@@ -14,7 +14,7 @@ const images = [ img1 ,img2, img3,img4,img5,img6,img7,img8,img9,img10];
 
 export default function Jeansgallery(){
     return(
-        <section className='grid grid-cols-2 gap-3 mx-6 my-6'>
+        <section className='grid grid-cols-2 gap-3 mx-6 my-6 md:grid-cols-4'>
 
 {images.map((img, index) => (
                     <div className='max-h-[230px]' key={index}>

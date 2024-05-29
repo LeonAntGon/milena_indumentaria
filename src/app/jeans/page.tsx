@@ -30,7 +30,7 @@ export default function jeans(){
 
             <div className={`w-full h-[30px] text-center bg-black text-gray-100 mt-4 pt-1 ${iceb.className}`}><h2>LAS LOCAS</h2></div>
         
-           <section className={`grid-container mt-4 mx-4 [&>p]:${iceb.className}`}>
+           <section className={`grid-container my-[35px] mx-4 [&>p]:${iceb.className}`}>
                 {/*line 1 */}
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>Talles</p></div>
                 <div><p className={` text-center text-[12px] ${iceb.className}`}>Por unidad</p></div>
