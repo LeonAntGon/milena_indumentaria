@@ -1,0 +1,11 @@
+.jeans{
+    background-image: url(/imgs/jeans/negro.jpg);
+    background-size: cover;       /* Asegura que la imagen cubra todo el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+}
+span{
+    color: #000000;
+    font-size: 14px;
+    /*-webkit-text-stroke: 1px rgb(97, 97, 97);*/
+}

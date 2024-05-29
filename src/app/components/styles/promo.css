@@ -1,0 +1,12 @@
+.first{
+    background-image: url(/imgs/promo/calza.jpg);
+    background-size: cover;       /* Asegura que la imagen cubra todo el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+}
+.second{
+    background-image: url(/imgs/promo/polera.jpg);
+    background-size: cover;       /* Asegura que la imagen cubra todo el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+}

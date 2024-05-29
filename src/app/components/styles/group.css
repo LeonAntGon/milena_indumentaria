@@ -1,0 +1,20 @@
+.group{
+    background-image: url(/imgs/negocio/panorama.jpg);
+    background-size: cover;       /* Asegura que la imagen cubra todo el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+}
+
+.titleone, .titletwo{
+    font-size: bold;
+    font-size: larger;
+}
+.titleone {
+    color: whitesmoke;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+.titletwo {
+    color: #98FFAF;
+    -webkit-text-stroke: 1px #000000;
+}

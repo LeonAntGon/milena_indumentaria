@@ -1,0 +1,16 @@
+.jeanssec{
+    background-image: url(/imgs/jeans/secbg.jpg);
+    background-size: cover;       /* Asegura que la imagen cubra todo el div */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1{
+    -webkit-text-stroke: 1px #ffffff;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
