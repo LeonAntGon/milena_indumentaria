@@ -30,17 +30,22 @@ export default function jeans(){
 
             <div className={`w-full h-[30px] text-center bg-black text-gray-100 mt-4 pt-1 ${iceb.className}`}><h2>LAS LOCAS</h2></div>
         
-           <section className={`grid-container mt-4 mx-6 [&>p]:${iceb.className}`}>
-                
+           <section className={`grid-container mt-4 mx-4 [&>p]:${iceb.className}`}>
+                {/*line 1 */}
                 <div></div>
-                <div>Llevando 3</div>
-                <div><p>Por curva</p></div>
-                <div><p className={`${iceb.className}`}>Talles del 36 al 46</p></div>
-                <div>$9900</div>
-                <div><p>$10.900</p></div>
-                <div><p className={`${iceb.className}`}>Talles especiales 48-56</p></div>
-                <div>$----</div>
-                <div><p>$12.500</p></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>Por unidad</p></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>Por mayor a eleccion llevando 3</p></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>Por curva</p></div>
+                {/*line 2 */}
+                <div><p className={` text-center font-bold text-[12px] ${iceb.className}`}>Talles del 36 | 46</p></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>$10.900</p></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>$9.900</p></div>
+                <div className={` text-center text-[12px] ${iceb.className}`}>$9.300</div>
+                {/*line 3 */}
+                <div><p className={`text-center font-bold text-[12px] ${iceb.className}`}>Talles especiales 48 | 56</p></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>$12.500</p></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>$11.500</p></div>
+                <div><p className={` text-center text-[12px] ${iceb.className}`}>$10.500</p></div>
            </section>
 
            <Jeansgallery/>
