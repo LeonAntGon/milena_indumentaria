@@ -1,6 +1,6 @@
 import img1 from '@/public/gallery/gray/blackfront.jpg';
-import img2 from '@/public/gallery/model blue.jpg';
-import img3 from '@/public/gallery/especial/bwback.jpg';
+import img2 from '@/public/gallery/modelblue.jpg';
+import img3 from '@/public/gallery/especial/bwback2.jpg';
 import img4 from '@/public/gallery/especial/bwfront.jpg';
 import img5 from '@/public/gallery/blue/bluefront.jpg';
 import img6 from '@/public/gallery/blue/blueback.jpg';
