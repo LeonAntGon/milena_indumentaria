@@ -29,7 +29,7 @@ export default function Group(){
                 <div className="h-[60px] w-[150px] ">
                     
                     <a className={`bg-[#66FF88] h-full w-full py-[5px] px-6 text-black mt-[60px] rounded-md
-                     shadow-black shadow-md hover:shadow-blue-500 ${saira.className}`}
+                     shadow-black shadow-md ${saira.className}`}
                     href=""
                     target="_blank" 
                     rel="noopener noreferrer"                    

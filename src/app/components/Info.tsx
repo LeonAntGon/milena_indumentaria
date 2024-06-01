@@ -47,7 +47,7 @@ export default function Info() {
                 <button
                 onClick={handleClick}
                 className="bg-[#FFA0A0] font-bold py-2 px-4 rounded 
-                border border-black shadow-slate-700 shadow-md hover:shadow-black">
+                border border-black shadow-slate-700 shadow-md">
 
                 <p className="text-black font-bold">Ir a Google Maps</p>
 
