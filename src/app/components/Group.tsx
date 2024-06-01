@@ -30,7 +30,7 @@ export default function Group(){
                     
                     <a className={`bg-[#66FF88] h-full w-full py-[5px] px-6 text-black mt-[60px] rounded-md
                      shadow-black shadow-md ${saira.className}`}
-                    href=""
+                    href="https://chat.whatsapp.com/EV38eity48w5gC1Wc86XEY"
                     target="_blank" 
                     rel="noopener noreferrer"                    
                     >IR AL GRUPO</a>

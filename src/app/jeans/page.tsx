@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Footer from "../components/Footer";
 import Jeansgallery from "../components/Jeansgallery";
 import Nav from "../components/Nav";
@@ -55,3 +56,8 @@ export default function jeans(){
     </>
     )
 }
+
+export const metadata: Metadata = {
+    title: "Milena Indumentaria",
+    description: "Jeans Las Locas x mayor y menor",
+  };
