@@ -9,7 +9,7 @@ export default function Whatsup(){
                 <a className=" align-right  mb-5 mr-5 px-1 py-1"
                      href="https://api.whatsapp.com/send?phone=5493814432487">
                     <Image src={WspLogo} alt='Whats app link' 
-                    className='w-[64]'
+                    className='w-[64px]'
                     />
                 </a>   
             </div>

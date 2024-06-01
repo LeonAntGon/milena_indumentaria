@@ -44,7 +44,7 @@ export default function Nav() {
 
             <div className={`bg-white bg-blur fixed h-screen w-[100%] transition-all duration-500
             flex flex-col border-l-2 border-black p-2
-            ${isDivVisible ? 'translate-x-[50%]' : 'translate-x-[100%]'}`}>
+            ${isDivVisible ? 'translate-x-[50%]':'translate-x-[100%]'}`}>
             
             
                 <button type="button" onClick={toggleDivVisibility} 
