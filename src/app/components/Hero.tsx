@@ -12,7 +12,7 @@ const mont = Montserrat({
 
 export default function Hero () {
     return (
-        <main className="pt-[65px]">
+        <main className="pt-[80px]">
             
             <div className="bg-black h-[30px] flex justify-center items-center">
                 <h1 className="text-gray-200 text-center font-semibold text-base tracking-wide">VENTA POR MAYOR &nbsp;</h1>

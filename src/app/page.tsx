@@ -8,12 +8,13 @@ import Whatsup from './components/Whatsup';
 import Group from './components/Group';
 import Info from './components/Info';
 import Payments from './components/Payments';
+import Navigation from './components/Navigation';
 
 export default function Home() {
   return (
     <>
   
-      <Nav/>
+      <Navigation/>
       
       <Hero />
 

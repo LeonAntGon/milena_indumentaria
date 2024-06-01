@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Footer from "../components/Footer";
 import Jeansgallery from "../components/Jeansgallery";
-import Nav from "../components/Nav";
+import Navigation from "../components/Navigation";
 import "../components/styles/jeans.css"
 import { Saira_Condensed } from 'next/font/google';
 import { Iceberg } from "next/font/google";
@@ -19,7 +19,7 @@ const saira = Saira_Condensed({
 export default function jeans(){
     return(
     <>
-        <Nav/>
+        <Navigation />
 
         <main className="pt-[65px] w-[100%]">
             <section className="jeanssec h-[270px]  flex items-center  content-center 
