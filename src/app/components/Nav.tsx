@@ -33,7 +33,7 @@ export default function Nav() {
             
         {/*Hamburguer */}
             <div className="mx-5 pt-6 [&>span]:h-[3px] [&>span]:rounded-sm
-                            cursor-pointer"                            
+                            cursor-pointer md:hidden"                            
                              onClick={toggleDivVisibility} >
                 <span className="block w-6 bg-black mb-[6px]"></span>
                 <span className="block w-6 bg-black mb-[6px]"></span>
@@ -42,9 +42,9 @@ export default function Nav() {
 
             {/*Menu Lateral*/}
 
-            <div className={`bg-white bg-blur fixed h-screen w-[100%] transition-all duration-500
-            flex flex-col border-l-2 border-black p-2
-            ${isDivVisible ? 'translate-x-[50%]':'translate-x-[100%]'}`}>
+            <div className={`bg-white bg-blur fixed h-screen w-[50%] transition-all duration-300
+            flex flex-col border-l-2 border-black p-2 md:hidden
+            ${isDivVisible ? 'translate-x-[100%]':'translate-x-[200%]'}`}>
             
             
                 <button type="button" onClick={toggleDivVisibility} 
