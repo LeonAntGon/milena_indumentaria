@@ -30,7 +30,14 @@ export default function Nav() {
                     objectFit='cover'/>
                 </div>
             
-            
+    
+        {/* Menu md*/}
+        <div className='hidden md:block w-[200px]'>
+            <div className='pt-6 pr-8 w-[100%] flex justify-around'>
+                <Link href='/'><p>Inicio</p></Link>
+                <Link href='/jeans'><p>Jeans</p></Link>
+            </div>
+        </div>
         {/*Hamburguer */}
             <div className="mx-5 pt-6 [&>span]:h-[3px] [&>span]:rounded-sm
                             cursor-pointer md:hidden"                            
