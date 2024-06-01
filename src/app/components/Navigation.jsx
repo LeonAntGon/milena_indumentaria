@@ -4,6 +4,13 @@ import  logo  from "@/public/imgs/logo bg blanco.png";
 import { Navbar, MobileNav , Typography , IconButton,} from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from 'next/font/google';
+
+
+const mont = Montserrat({
+    weight: "700",
+    subsets:['latin'],
+  })
 
 export default function Navigation() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -20,7 +27,7 @@ export default function Navigation() {
       <hr/>
       <Typography as="li" variant="small" color="blue-gray" className="p-1 font-normal">
         <Link href="/" className="flex items-center">
-            <p className="text-black">Inicio</p>
+            <p className={` text-black ${mont.className}`}>Inicio</p>
           
         </Link>
       </Typography>
@@ -31,8 +38,8 @@ export default function Navigation() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link href="/jeans" className="flex items-center">
-          <p className="text-black">Jeans</p>
+        <Link href="/jeans" className="flex items-center pb-1">
+          <p className={` text-black ${mont.className}`}>Jeans</p>
         </Link>
       </Typography>
       

@@ -6,6 +6,7 @@ import "../components/styles/jeans.css"
 import { Saira_Condensed } from 'next/font/google';
 import { Iceberg } from "next/font/google";
 
+
 const saira = Saira_Condensed({
     weight: "700",
     subsets:['latin'],
